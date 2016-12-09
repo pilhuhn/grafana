@@ -67,6 +67,7 @@ var knownDatasourcePlugins map[string]bool = map[string]bool{
 	"dalmatinerdb": true,
 	"gnocci":       true,
 	"zabbix":       true,
+	"hawkular":     true,
 }
 
 func IsKnownDataSourcePlugin(dsType string) bool {
